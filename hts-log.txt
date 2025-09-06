@@ -1,0 +1,59 @@
+HTTrack3.49-2+htsswf+htsjava launched on Sun, 07 Sep 2025 02:12:57 at http://localhost:8080/ +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar
+(winhttrack -qwC2t%Pns2u1%s%uN0%I0p7DaK0H0%kf2A25000%f#f -F "Mozilla/4.5 (compatible; HTTrack 3.0x; Windows 98)" -%F "<!-- Mirrored from %s%s by HTTrack Website Copier/3.x [XR&CO'2014], %s -->" -%l "en, *" http://localhost:8080/ -O1 "G:\website\MyLocalSite" +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar )
+
+Information, Warnings and Errors reported for this mirror:
+note:	the hts-log.txt file, and hts-cache folder, may contain sensitive information,
+	such as username/password authentication for websites mirrored in this project
+	do not share these files/folders if you want these information to remain private
+
+02:13:00	Warning: 	Note: due to localhost:8080 remote robots.txt rules, links beginning with these path will be forbidden: /wp-admin/ (see in the options to disable this)
+02:19:13	Error: 	"Not Found" (404) at link localhost:8080/about.html (from localhost:8080/)
+02:19:13	Error: 	"Not Found" (404) at link localhost:8080/education.html (from localhost:8080/)
+02:19:13	Error: 	"Not Found" (404) at link localhost:8080/experience.html (from localhost:8080/)
+02:19:13	Error: 	"Not Found" (404) at link localhost:8080/portfolio.html (from localhost:8080/)
+02:19:13	Error: 	"Not Found" (404) at link localhost:8080/skills.html (from localhost:8080/)
+02:19:13	Error: 	"Not Found" (404) at link localhost:8080/contact.html (from localhost:8080/)
+02:19:13	Warning: 	Warning: store text/html without scan: G:/website/MyLocalSite/gmpg.org/xfn/.html
+02:19:13	Warning: 	Warning: store text/html without scan: G:/website/MyLocalSite/gmpg.org/xfn/intro.html
+02:19:13	Warning: 	Warning: store text/html without scan: G:/website/MyLocalSite/gmpg.org/xfn/faq.html
+02:19:13	Warning: 	Moved Permanently for localhost:8080/?p=10
+02:19:13	Warning: 	File has moved from localhost:8080/?p=10 to http://localhost:8080/index.php/about/
+02:19:13	Warning: 	Moved Permanently for localhost:8080/?p=12
+02:19:13	Warning: 	File has moved from localhost:8080/?p=12 to http://localhost:8080/index.php/education/
+02:19:14	Warning: 	Moved Permanently for localhost:8080/?p=14
+02:19:14	Warning: 	File has moved from localhost:8080/?p=14 to http://localhost:8080/index.php/portfolio/
+02:19:14	Warning: 	Moved Permanently for localhost:8080/?p=62
+02:19:14	Warning: 	File has moved from localhost:8080/?p=62 to http://localhost:8080/index.php/skills/
+02:19:14	Warning: 	Moved Permanently for localhost:8080/?p=16
+02:19:14	Warning: 	File has moved from localhost:8080/?p=16 to http://localhost:8080/index.php/experience/
+02:19:14	Warning: 	Moved Permanently for localhost:8080/?p=18
+02:19:14	Warning: 	File has moved from localhost:8080/?p=18 to http://localhost:8080/index.php/contact/
+02:19:16	Warning: 	HTML file (196708 bytes) retransferred due to lack of cache: localhost:8080/index.php/wp-json/
+02:19:30	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): localhost:8080/index.php/wp-json/wp/v2/pages/8
+02:20:43	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): localhost:8080/index.php/wp-json/wp/v2/pages/10
+02:20:57	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): localhost:8080/index.php/wp-json/wp/v2/pages/14
+02:21:04	Warning: 	HTML file (92921 bytes) retransferred due to lack of cache: localhost:8080/index.php/about/
+02:21:09	Error: 	"" (404) at link localhost:8080/about.html (from localhost:8080/)
+02:21:10	Warning: 	Warning: store text/css without scan: G:/website/MyLocalSite/gmpg.org/xfn/default.css
+02:21:10	Warning: 	HTML file (775 bytes) retransferred due to lack of cache: localhost:8080/?p=10
+02:21:10	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): localhost:8080/index.php/wp-json/wp/v2/pages/16
+02:21:11	Warning: 	Moved Permanently for localhost:8080/?p=10
+02:21:11	Warning: 	File has moved from localhost:8080/?p=10 to http://localhost:8080/index.php/about/
+02:21:15	Warning: 	HTML file (783 bytes) retransferred due to lack of cache: localhost:8080/?p=12
+02:21:16	Warning: 	Moved Permanently for localhost:8080/?p=12
+02:21:16	Warning: 	File has moved from localhost:8080/?p=12 to http://localhost:8080/index.php/education/
+02:21:16	Warning: 	HTML file (783 bytes) retransferred due to lack of cache: localhost:8080/?p=14
+02:21:17	Warning: 	Moved Permanently for localhost:8080/?p=14
+02:21:17	Warning: 	File has moved from localhost:8080/?p=14 to http://localhost:8080/index.php/portfolio/
+02:21:18	Warning: 	HTML file (777 bytes) retransferred due to lack of cache: localhost:8080/?p=62
+02:21:19	Warning: 	Moved Permanently for localhost:8080/?p=62
+02:21:19	Warning: 	File has moved from localhost:8080/?p=62 to http://localhost:8080/index.php/skills/
+02:21:19	Warning: 	HTML file (785 bytes) retransferred due to lack of cache: localhost:8080/?p=16
+02:21:21	Warning: 	Moved Permanently for localhost:8080/?p=16
+02:21:21	Warning: 	File has moved from localhost:8080/?p=16 to http://localhost:8080/index.php/experience/
+02:21:21	Warning: 	HTML file (779 bytes) retransferred due to lack of cache: localhost:8080/?p=18
+02:21:23	Warning: 	Moved Permanently for localhost:8080/?p=18
+02:21:23	Warning: 	File has moved from localhost:8080/?p=18 to http://localhost:8080/index.php/contact/
+
+HTTrack Website Copier/3.49-2 mirror complete in 8 minutes 27 seconds : 136 links scanned, 128 files written (13823977 bytes overall) [13154669 bytes received at 25946 bytes/sec], 1870937 bytes transferred using HTTP compression in 4 files, ratio 29%, 2.4 requests per connection
+(7 errors, 41 warnings, 0 messages)
